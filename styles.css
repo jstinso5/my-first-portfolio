@@ -1,10 +1,13 @@
 /* CSS by Joel Stinson */
 /* color palette 
-dark blue= #253659
-teal= #03A696
-salmon= #F27457
+deep teal = #025259 
+light cream = #F4E2DE
+dark orange = #D94F04
+orange = #F29325
+teal = #007172
 */
 /* GLOBAL (base) MOBILE FIRST */
 body {
-    background-color: none;
+    background-color: #025259;
+    
 }
