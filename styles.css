@@ -9,5 +9,48 @@ teal = #007172
 /* GLOBAL (base) MOBILE FIRST */
 body {
     background-color: #025259;
-    
+    color: #F4E2DE;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+header  {
+    background-color: #007172;
+    text-align: center;
+    padding: 2rem;
+}
+
+nav ul {
+    list-style: none;
+   display:flex;
+   justify-content: center ;
+   gap:1rem;
+    padding:1rem;
+    margin:0;
+}
+nav a {
+    color: #F4E2DE;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #F29325;
+}
+main {
+   display:grid;
+    gap:1rem;
+    padding:1rem;
+}
+section {
+    background-color: #007172;
+    padding:1rem;
+    border-radius: 8px;
+}
+footer  {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+@media screen and (min-width:750px){
+    main {
+        grid-template-columns: repeat(2, 1fr);
+} 
 }
