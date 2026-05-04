@@ -38,12 +38,43 @@ main {
    display:grid;
     gap:1rem;
     padding:1rem;
+    align-items: stretch;
 }
 section {
     background-color: #007172;
-    padding:1rem;
-    border-radius: 8px;
+    padding:1.5rem;
+    border-radius: 10px;
+    transition: background-color 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    
 }
+section h2,
+section p {
+    color: #F4E2DE;
+        margin: 0;
+}
+section a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 1rem 0 0;
+}
+section h2 {
+    margin-bottom: 0.5rem;
+    margin: 1rem 0 0;
+}
+
+section h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin: 1rem 0 0;
+}
+section:hover {
+    background-color: #0090A0;
+}
+
 footer  {
     text-align: center;
     padding: 2rem;
@@ -54,3 +85,9 @@ footer  {
         grid-template-columns: repeat(2, 1fr);
 } 
 }
+
+    .card-row {
+    display: grid;
+    gap: 1rem;
+}
+    
