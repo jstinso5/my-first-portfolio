@@ -2,13 +2,16 @@ Project Description
 A multi-page portfolio website developed for a code along and build project
 
 Pages Included
-index.html – Home 
 
-about.html – Background 
+Home (index.html)
 
-projects.html – My projects
+About (about.html)
 
-resume.html - My Education
+Projects (projects.html)
+
+Resume (resume.html)
+
+Contact (contact.html)
 
 Website link -
 https://jstinso5.github.io/my-first-portfolio/
