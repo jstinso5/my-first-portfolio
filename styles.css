@@ -22,7 +22,7 @@ header  {
 nav ul {
     list-style: none;
    display:flex;
-   justify-content: center ;
+   justify-content: center;
    gap:1rem;
     padding:1rem;
     margin:0;
@@ -53,7 +53,8 @@ section {
 section h2,
 section p {
     color: #F4E2DE;
-        margin: 0;
+        margin: 1rem 0 0;
+
 }
 section a {
     color: inherit;
@@ -65,6 +66,8 @@ section a {
 section h2 {
     margin-bottom: 0.5rem;
     margin: 1rem 0 0;
+    text-align: center;
+    font-weight: bold;
 }
 
 section h3 {
@@ -84,11 +87,13 @@ footer  {
 @media screen and (min-width:750px){
     main {
         grid-template-columns: repeat(2, 1fr);
-} 
-}
-
-    .card-row {
+        
+        .card-row {
     display: grid;
     gap: 1rem;
 }
+} 
+}
+
+ 
     
